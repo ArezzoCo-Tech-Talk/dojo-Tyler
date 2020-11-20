@@ -129,3 +129,10 @@ Vantagens:
 ### Limpeza do CSS Tyler antigo
 
 A ideia antiga de copiar o CSS para cada marca ainda tem resquícios e geralmente atrapalha no desenvolvimento, pois é um código repetido que sobrescreve o do Tyler comum.
+
+# Testando conhecimentos
+
+Vimos que a página é o componente mor, olhando o carrinho com e sem produtos, ambas são o mesmo componente?
+![image](https://user-images.githubusercontent.com/27368585/99838604-2b5bac80-2b48-11eb-882c-a56df8a6beed.png)
+![image](https://user-images.githubusercontent.com/27368585/99838692-4c240200-2b48-11eb-8ab8-e735d4cd8af3.png)
+
