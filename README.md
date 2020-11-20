@@ -132,7 +132,7 @@ A ideia antiga de copiar o CSS para cada marca ainda tem resquícios e geralment
 
 # Testando conhecimentos
 
-Vimos que a página é o componente mor, olhando o carrinho com e sem produtos, ambas são o mesmo componente?
+Vimos que a página é o componente mor, olhando o carrinho com e sem produtos, ambas são o mesmo componente? <span style="color: white">não os componentes são baseados no layout e a página de carinho e carrinho vazio são totalmente diferentes.</span>
 ![image](https://user-images.githubusercontent.com/27368585/99838604-2b5bac80-2b48-11eb-882c-a56df8a6beed.png)
 ![image](https://user-images.githubusercontent.com/27368585/99838692-4c240200-2b48-11eb-8ab8-e735d4cd8af3.png)
 
