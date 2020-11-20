@@ -53,11 +53,21 @@ Helpers (errado)
 
 Com helper é muito mais prático, no exemplo acima não atenderia todas as marcas e não seria semântico dizer que um texto é bold e depois sobrescrever na marca.
 
+Os nossos componentes são feitos com Atomic Design e BEM, segue 3 documentos que podem auxiliar:
+
+- [Atomic Design](https://github.com/jomarcardoso/dojo-AtomicDesign)
+- [Componentes CSS](https://github.com/jomarcardoso/dojo-css-components)
+- [Atomic Design + BEM](https://github.com/jomarcardoso/dojo-atomic-and-bem)
+
 ### Estrutura
 
 - **common** o que será aplicado além do Tyler, são resets, fonts, variáveis CSS nativas...
 - **components** seguimos o atomic design
-  - 
+  - atoms
+  - molecules
+  - organisms
+  - templates
+  - pages
 - **helpers** css que faz o trabalho de estilo em linha. Raramente usado, pois optamos pela estratégia de componentes
 - **utilities** SCSS que nunca gera CSS, ou seja, variáveis (SCSS apenas, não CSS), placeholders e mixins
 
