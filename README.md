@@ -73,6 +73,15 @@ Os nossos componentes são feitos com Atomic Design e BEM, segue 3 documentos qu
 
 ### Forma de trabalhar
 
+Planejar
+
+Exemplos de tarefas:
+
+- [Componentes átomos do chekout #10784](https://github.com/ArezzoCo/ecommerce-hybris/issues/10784)
+- [Componentes moléculas do checkout](https://github.com/ArezzoCo/ecommerce-hybris/issues/10789)
+- [Componentes templates do checkout](https://github.com/ArezzoCo/ecommerce-hybris/issues/11003)
+- [Componentes úteis Trocas e devoluções](https://github.com/ArezzoCo/ecommerce-hybris/issues/15346)
+
 Dívidido em Tyler comum e Tyler da marca. As marcas tanto podem sobrescrever as variáveis como o CSS.
 
 Todo layot deve começar a ser escrito pelos elementos menores, para que um componente maior não as propriedades dele e gera um grande acoplamento. O menor componente será um átomo, isso não quer dizer o seu tamanho em tela, mas o CSS que irá conter nele. Um container é um átomo, pois não estiliza nenhum outro.
