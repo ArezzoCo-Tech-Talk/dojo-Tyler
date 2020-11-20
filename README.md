@@ -180,6 +180,8 @@ Você sabe do futuro? Será mesmo que será usado apenas uma vez?
 
 Se quebrar esse teu componente em partes menores, essas partes não podem ser usadas em outros lugares?
 
+Como vimos no Atomic Design tudo é componente, ser reaproveitável vai da mão do dev.
+
 > Esse componente só será usado em uma marca, vou fazer ele especificamente lá
 
 Assim como o Bootstrap o Tyler é uma coleção de componentes e que nem todos serão usados em todos os lugares.
