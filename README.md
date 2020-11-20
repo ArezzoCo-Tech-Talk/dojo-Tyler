@@ -2,8 +2,6 @@
 
 > Uma biblioteca de CSS para os sites de Arezzo&Co.
 
-**Futuro:** O manual de estilos de Arezzo&Co.
-
 O Tyler serve para unificar o código CSS entre os sites, para que elementos comuns entre eles compartilhem do mesmo código.
 
 Ter componentes bem definidos, testados e compatíveis para serem facilmente utilizados.
@@ -125,8 +123,6 @@ O CSS para o guia de estios é especialmente feito para não "vazar", onde todo 
 - prefixo `ty-` que evita do CSS externo afetar os componentes
 - seletor específico com `[data-tyler="root"]` para que o CSS do componente não afete os do guia de estilos. 
 
-## Futuro
-
 ### Guia de estilos no front-vendors
 
 Vantagens:
@@ -142,6 +138,10 @@ Vantagens:
 ### Limpeza do CSS Tyler antigo
 
 A ideia antiga de copiar o CSS para cada marca ainda tem resquícios e geralmente atrapalha no desenvolvimento, pois é um código repetido que sobrescreve o do Tyler comum.
+
+### Ser um manual de estilos de Arezzo&Co.
+
+Os designers olharem lá para verem cores, fontes, componentes, espaçamentos... Inclusive contribuirem com o que tem lá para tornar-se a nossa referência dos estilos.
 
 # Testando conhecimentos
 
