@@ -16,6 +16,14 @@ Na estratégia inicial a marcação de todas as marcas teria o mesmo seletor, po
 
 Copiamos a forma como o Bootstrap trabalha de criar variáveis com valores padrões para serem sobrescritas por cada um que fosse usar, no nosso caso as marcas. Dessa forma não temos duplicação de código e facilita muito a replicação para novas marcas.
 
+## Benefícios
+
+- Facilita para replicar
+- Menos código
+- Mais compatível com os navegadores
+- Código padronizado
+- Fácil de visualizar os componentes disponíveis
+
 ## O Tyler
 
 O Tyler é baseado em componentes e não em helpers, isso por que não teremos valor definitivos como um texto negrito e sim dizer que ele é um título e cada marca dizer como faz o seu. Por exemplo:
@@ -142,6 +150,8 @@ A ideia antiga de copiar o CSS para cada marca ainda tem resquícios e geralment
 ### Ser um manual de estilos de Arezzo&Co.
 
 Os designers olharem lá para verem cores, fontes, componentes, espaçamentos... Inclusive contribuirem com o que tem lá para tornar-se a nossa referência dos estilos.
+
+Cada nova marca poderá ter seus componentes vistos antes mesmo de ser implementada.
 
 # Testando conhecimentos
 
