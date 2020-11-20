@@ -8,3 +8,12 @@ O Tyler serve para unificar o código CSS entre os sites, para que elementos com
 
 Ter componentes bem definidos, testados e compatíveis para serem facilmente utilizados.
 
+## História
+
+Começou com componentes CSS para uma página Amp e para mostrar os esses componentes foi feito um guia de estilos bem simples.
+
+Concordamos em reunião de criar um CSS comum e um Guia de estilos com componentes, que o nome dele seria Tyler e que todo CSS dele seria prefixado para não conflitar com os já existentes ou de terceiros.
+
+Na estratégia inicial a marcação de todas as marcas teria o mesmo seletor, porém com o código CSS era totalmente separado. A ideia era que o Tyler fosse uma "assinatura" de seletores, onde cada marca deveria fazer do seu jeito. O guia de estilos nessa época assumia que cada marca teria os seus componentes únicos, então lá também cada lista de componentes era separada. Os problemas dessa época era que para colocar no guia de estilos precisava ir marca por marca e para termos os componentes em cada marca tínhamos que copiar o código de outra... A manutenção ficou pesada.
+
+Copiamos a forma como o Bootstrap trabalha de criar variáveis com valores padrões para serem sobrescritas por cada um que fosse usar, no nosso caso as marcas. Dessa forma não temos duplicação de código e facilita muito a replicação para novas marcas.
