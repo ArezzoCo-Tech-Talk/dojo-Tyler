@@ -169,3 +169,17 @@ Para testar vamos copiar o theme do Tyler comum para alme. Algumas ideias:
 - font-family verdana ou tahoma (acho que ainda não vai dar isso)
 - botões levemente arredondados (2px)
 - títulos bem salientes
+
+# Perguntas e afirmações frequentes
+
+> Isso daqui será usado só uma vez preciso fazer um componente?
+
+Você sabe do futuro? Será mesmo que será usado apenas uma vez?
+
+> Não vou fazer componente porque não é reaproveitável.
+
+Se quebrar esse teu componente em partes menores, essas partes não podem ser usadas em outros lugares?
+
+> Esse componente só será usado em uma marca, vou fazer ele especificamente lá
+
+Assim como o Bootstrap o Tyler é uma coleção de componentes e que nem todos serão usados em todos os lugares.
