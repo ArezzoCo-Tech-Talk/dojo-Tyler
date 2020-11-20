@@ -153,10 +153,18 @@ Os designers olharem lá para verem cores, fontes, componentes, espaçamentos...
 
 Cada nova marca poderá ter seus componentes vistos antes mesmo de ser implementada.
 
-# Testando conhecimentos
+# Testando conhecimentos e praticando
 
 Vimos que a página é o componente mor, olhando o carrinho com e sem produtos, ambas são o mesmo componente?
 
 ![image](https://user-images.githubusercontent.com/27368585/99838604-2b5bac80-2b48-11eb-882c-a56df8a6beed.png)
 ![image](https://user-images.githubusercontent.com/27368585/99838692-4c240200-2b48-11eb-8ab8-e735d4cd8af3.png)
 
+## Criar uma nova marca
+
+Para testar vamos copiar o theme do Tyler comum para alme. Algumas ideias:
+
+- [azul, amarelo e laranja](https://coolors.co/ff6b35-f7c59f-efefd0-004e89-1a659e)
+- font-family verdana ou tahoma (acho que ainda não vai dar isso)
+- botões levemente arredondados (2px)
+- títulos bem salientes
