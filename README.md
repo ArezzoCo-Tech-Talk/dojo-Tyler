@@ -164,7 +164,8 @@ Vimos que a página é o componente mor, olhando o carrinho com e sem produtos, 
 
 Para testar vamos copiar o theme do Tyler comum para alme. Algumas ideias:
 
-- [azul, amarelo e laranja](https://coolors.co/ff6b35-f7c59f-efefd0-004e89-1a659e)
+- [![image](https://user-images.githubusercontent.com/27368585/99847077-42090000-2b56-11eb-86c8-fb8f702d1ead.png)
+](https://coolors.co/ff6b35-f7c59f-efefd0-004e89-1a659e)
 - font-family verdana ou tahoma (acho que ainda não vai dar isso)
 - botões levemente arredondados (2px)
 - títulos bem salientes
