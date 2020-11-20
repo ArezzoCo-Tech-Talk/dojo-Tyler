@@ -114,6 +114,7 @@ Vantagens:
 - possível rodar testes e linters nele
 - PR mais visto
 - Processo natural de aprovação de PR, testes, deploy...
+- usar também componentes React
 
 ### Limpeza do CSS Tyler antigo
 
