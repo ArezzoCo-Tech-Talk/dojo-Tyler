@@ -22,6 +22,10 @@ Copiamos a forma como o Bootstrap trabalha de criar variáveis com valores padr�
 
 [![image](https://user-images.githubusercontent.com/27368585/99832621-9654b580-2b3f-11eb-92b4-93c4d19b53e1.png)](https://tyler.surge.sh/)
 
+O CSS para o guia de estios é especialmente feito para não "vazar", onde todo ele está dentro do seletor `[data-tyler="root"]`. Por exemplo `[data-tyler="root"] .ty-button`. Assim ele tem os 2 mecanismos de defesa:
+- prefixo `ty-` que evita do CSS externo afetar os componentes
+- seletor específico com `[data-tyler="root"]` para que o CSS do componente não afete os do guia de estilos. 
+
 ## Futuro
 
 ### Guia de estilos no front-vendors
