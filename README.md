@@ -77,7 +77,7 @@ Planejar
 
 Exemplos de tarefas:
 
-- [Componentes átomos do chekout #10784](https://github.com/ArezzoCo/ecommerce-hybris/issues/10784)
+- [Componentes átomos do chekout](https://github.com/ArezzoCo/ecommerce-hybris/issues/10784)
 - [Componentes moléculas do checkout](https://github.com/ArezzoCo/ecommerce-hybris/issues/10789)
 - [Componentes templates do checkout](https://github.com/ArezzoCo/ecommerce-hybris/issues/11003)
 - [Componentes úteis Trocas e devoluções](https://github.com/ArezzoCo/ecommerce-hybris/issues/15346)
