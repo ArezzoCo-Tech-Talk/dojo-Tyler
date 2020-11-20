@@ -73,7 +73,11 @@ Os nossos componentes são feitos com Atomic Design e BEM, segue 3 documentos qu
 
 ### Forma de trabalhar
 
-Planejar
+Planejar para:
+
+- ver se o componente não existe ou se não da para modificar algum para atender
+- ver o que é reaproveitável para componentizar
+- colocar nomes bons
 
 Exemplos de tarefas:
 
