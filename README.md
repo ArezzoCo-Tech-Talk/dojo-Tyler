@@ -170,6 +170,10 @@ Para testar vamos copiar o theme do Tyler comum para alme. Algumas ideias:
 - botões levemente arredondados (2px)
 - títulos bem salientes
 
+## Criar o componente de botão de natal
+
+![image](https://user-images.githubusercontent.com/27368585/99967857-2761a180-2d77-11eb-86fe-b1fdd996abbc.png)
+
 # Perguntas e afirmações frequentes
 
 > Isso daqui será usado só uma vez preciso fazer um componente?
