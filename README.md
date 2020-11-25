@@ -231,3 +231,11 @@ Como vimos no Atomic Design tudo é componente, ser reaproveitável vai da mão 
 > Esse componente só será usado em uma marca, vou fazer ele especificamente lá
 
 Assim como o Bootstrap o Tyler é uma coleção de componentes e que nem todos serão usados em todos os lugares.
+
+> A página não é um componente!
+
+No nosso exemplo o componente ty-cart foi usado em várias marcas e tem um comportamento idêntico aos outros componentes de sobrescrever os seus menores. O que da para fazer é tirar ele da pasta componentes e botar em uma pasta páginas.
+
+> Para meu uso esse componente é muito complexo
+
+Isso vai ser pra tudo, um componente normalmente precisa prever muitos casos, se fosse fazer um código para cada situação sempre seria "mais simples". Da para fazer um tooltip só com "::before", mas vai servir para todos os casos?
