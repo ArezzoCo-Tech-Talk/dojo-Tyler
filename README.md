@@ -14,6 +14,32 @@ Concordamos em reunião de criar um CSS comum e um Guia de estilos com component
 
 Na estratégia inicial a marcação de todas as marcas teria o mesmo seletor, porém com o código CSS era totalmente separado. A ideia era que o Tyler fosse uma "assinatura" de seletores, onde cada marca deveria fazer do seu jeito. O guia de estilos nessa época assumia que cada marca teria os seus componentes únicos, então lá também cada lista de componentes era separada. Os problemas dessa época era que para colocar no guia de estilos precisava ir marca por marca e para termos os componentes em cada marca tínhamos que copiar o código de outra... A manutenção ficou pesada.
 
+```html
+<button class="ty-button">
+  um botão
+</button>
+```
+
+**arezzo**
+```css
+.ty-button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: green;
+  min-width: 120px;
+}
+```
+
+**fiever**
+```css
+.ty-button {
+  padding: 10px;
+  border-radius: 0;
+  background-color: black;
+  min-width: 120px;
+}
+```
+
 Copiamos a forma como o Bootstrap trabalha de criar variáveis com valores padrões para serem sobrescritas por cada um que fosse usar, no nosso caso as marcas. Dessa forma não temos duplicação de código e facilita muito a replicação para novas marcas.
 
 ## Benefícios
