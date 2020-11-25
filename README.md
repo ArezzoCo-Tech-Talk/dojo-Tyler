@@ -102,9 +102,13 @@ Os nossos componentes são feitos com Atomic Design e BEM, segue 3 documentos qu
   - pages
 - **helpers** css que faz o trabalho de estilo em linha. Raramente usado, pois optamos pela estratégia de componentes
 - **utilities** SCSS que nunca gera CSS, ou seja, variáveis (SCSS apenas, não CSS), placeholders, funções e mixins
+  - variables - as variáveis são os valores únicos que ditam as características da marca
+  - theme - o tema é onde vão as variáveis de características dos componentes
   - components - os placeholders comuns de componentes
 
-### Forma de trabalhar
+## Forma de trabalhar
+
+### Planejamento
 
 Planejar para:
 
@@ -118,8 +122,6 @@ Exemplos de tarefas:
 - [Componentes moléculas do checkout](https://github.com/ArezzoCo/ecommerce-hybris/issues/10789)
 - [Componentes templates do checkout](https://github.com/ArezzoCo/ecommerce-hybris/issues/11003)
 - [Componentes úteis Trocas e devoluções](https://github.com/ArezzoCo/ecommerce-hybris/issues/15346)
-
-Dívidido em Tyler comum e Tyler da marca. As marcas tanto podem sobrescrever as variáveis como o CSS.
 
 Todo layot deve começar a ser escrito pelos elementos menores, para que um componente maior não as propriedades dele e gera um grande acoplamento. O menor componente será um átomo, isso não quer dizer o seu tamanho em tela, mas o CSS que irá conter nele. Um container é um átomo, pois não estiliza nenhum outro.
 
@@ -150,13 +152,26 @@ Todo layot deve começar a ser escrito pelos elementos menores, para que um comp
 }
 ```
 
+### Processo de desenvolvimento
+
+Dívidido em Tyler comum e Tyler da marca. As marcas tanto podem sobrescrever as variáveis como o CSS.
+
+Após utilizado os componente que já existem e criados novos, se for necessário, vem a parte de estilizar o tema e por fim, se necessário a sobrescrita.
+
+A ordem para isso é:
+- mudar o valor único da marca (arquivo variables)
+- mudar a variável do tema da marca (arquivo theme)
+- sobrescrita
+
 ## Guia de estilos
 
 [![image](https://user-images.githubusercontent.com/27368585/99832621-9654b580-2b3f-11eb-92b4-93c4d19b53e1.png)](https://tyler.surge.sh/)
 
 O CSS para o guia de estios é especialmente feito para não "vazar", onde todo ele está dentro do seletor `[data-tyler="root"]`. Por exemplo `[data-tyler="root"] .ty-button`. Assim ele tem os 2 mecanismos de defesa:
 - prefixo `ty-` que evita do CSS externo afetar os componentes
-- seletor específico com `[data-tyler="root"]` para que o CSS do componente não afete os do guia de estilos. 
+- seletor específico com `[data-tyler="root"]` para que o CSS do componente não afete os do guia de estilos.
+
+## Futuro
 
 ### Guia de estilos no front-vendors
 
