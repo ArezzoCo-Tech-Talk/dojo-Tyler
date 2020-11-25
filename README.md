@@ -101,7 +101,7 @@ Os nossos componentes são feitos com Atomic Design e BEM, segue 3 documentos qu
   - templates
   - pages
 - **helpers** css que faz o trabalho de estilo em linha. Raramente usado, pois optamos pela estratégia de componentes
-- **utilities** SCSS que nunca gera CSS, ou seja, variáveis (SCSS apenas, não CSS), placeholders e mixins
+- **utilities** SCSS que nunca gera CSS, ou seja, variáveis (SCSS apenas, não CSS), placeholders, funções e mixins
   - components - os placeholders comuns de componentes
 
 ### Forma de trabalhar
