@@ -242,7 +242,7 @@ Isso vai ser pra tudo, um componente normalmente precisa prever muitos casos, se
 
 > Não vou usar o Tyler, pois vou fazer uma página AMP.
 
-😌 O Tyler surgiu exatamente por isso, para conectar todas as marcas e tecnologias em um mesmo CSS.
+ O Tyler surgiu exatamente por isso, para conectar todas as marcas e tecnologias em um mesmo CSS.
 
 > A página que vou fazer é muito simples para usar o Tyler, consigo fazer com muitos menos CSS.
 
