@@ -239,3 +239,11 @@ No nosso exemplo o componente ty-cart foi usado em várias marcas e tem um compo
 > Para meu uso esse componente é muito complexo
 
 Isso vai ser pra tudo, um componente normalmente precisa prever muitos casos, se fosse fazer um código para cada situação sempre seria "mais simples". Da para fazer um tooltip só com "::before", mas vai servir para todos os casos?
+
+> Não vou usar o Tyler, pois vou fazer uma página AMP.
+
+😌 O Tyler surgiu exatamente por isso, para conectar todas as marcas e tecnologias em um mesmo CSS.
+
+> A página que vou fazer é muito simples para usar o Tyler, consigo fazer com muitos menos CSS.
+
+Sempre fazer algo específico será mais simples, mas não podemos trabalhar assim, o ecommerce não deve ser um aglomerado de hotsites.
